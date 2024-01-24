@@ -38,6 +38,11 @@
    ```bash
         wget  https://get.jenkins.io/war-stable/2.277.2/jenkins.war
    ```
+     <br />
+<p align="center">
+    <img src="images/jenkins/jenkins_weblink.png" alt="image" width="400" height="250">
+  </a>
+  
 -  start the jenkins
   
    ```bash
@@ -45,7 +50,18 @@
    ```
 -  When we are installing jenkins it will automatically give you    the password in the github terminal.
 -  Copy the public ip of the dev server and paste the ip address in the browser and in the end enter :8080 with the default port number.
+-  unlock the jenkins
+      <br />
+<p align="center">
+    <img src="images/jenkins/jenkins_unlock.png" alt="image" width="400" height="250">
+  </a>
+  
 -  Press Install Suggested Plugins
+      <br />
+  <p align="center">
+      <img src="images/jenkins/jenins_plugins.png" alt="image" width="400" height="250">
+    </a>
+    
 -  The first user which we create here is the admin user of the jenkins.
 -  Click on save and continue.
 #
