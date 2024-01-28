@@ -11,15 +11,16 @@
     <img src="images/docker/security_group.png" alt="image" width="400" height="250">
   </a>
   
--Update the repositary
-
-```bash
-   sudo apt-get update
-```
 -change normal user to root user 
 
 ```bash
     sudo su
+```
+  
+-Update the repositary
+
+```bash
+   sudo apt-get update
 ```
 
 -Start two busybox containers and create link between them
