@@ -78,7 +78,7 @@ How to come out of the container without exit
 
 ```bash
    public_ip:5050
-   18.138.58.3:5050
+   example- 18.138.58.3:5050
 ```
 
    <br />
