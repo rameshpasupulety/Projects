@@ -59,7 +59,7 @@ How to come out of the container without exit
 -TO start mysql as container
 
 ```bash
-   docker run --name mydb  -d  -e  MYSQL_ROOT_PASSWORD=sunil  mysql:5
+   docker run --name mydb  -d  -e  MYSQL_ROOT_PASSWORD=star  mysql:5
 ```
 
 -Check whether the container is running or not
