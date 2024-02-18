@@ -2,7 +2,7 @@
 ### In this Project, we will experience the tomcat:
 
 ### Tools covered:
--  Aws Insstance 
+-  Aws Instance 
 -  Ubuntu
 -  Git bash
 -  Tomcat
