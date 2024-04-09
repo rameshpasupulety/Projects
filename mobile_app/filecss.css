@@ -1,0 +1,200 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100% ;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #4FACFE, #00F2FE);
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #2776ea;
+    border-radius: 50px;
+  
+}
+
+main {
+    padding: 20px;
+}
+
+input[type="date"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background : transparent ;
+}
+
+section {
+    margin-bottom: 300px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: black ;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2776ea;
+}
+
+section#home {
+    text-align: center;
+}
+
+section#count {
+    text-align: center;
+}
+
+section#date {
+    text-align: center;
+}
+
+section#home > div {
+    margin-bottom: 10px;
+}
+
+section#home label {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+
+#calendar {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.highlight {
+    color: red;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#noteApp {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.button {
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-primary {
+    background-color: #4CAF50;
+    color: black ;
+}
+
+.button-primary: hover {
+    background-color: #2776ea;
+}
+
+.saved-content, .trash-content {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom:0px;
+}
+
+.saved-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.edit-button, .delete-button, .restore-button {
+    padding: 2px 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0px;
+    text-align: left  ;
+}
+
+.edit-button, .delete-button {
+    background-color: green ;
+    color: black ;
+    text-align: left;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #2776ea;
+ 
+}
+
+.restore-button {
+    background-color: green ;
+    color: black;
+    text-align: left;
+}
+
+.restore-button:hover {
+    background-color: #2776ea;
+
+}
+
+
+
+
