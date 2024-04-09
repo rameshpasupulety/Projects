@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Days*Left</title>
+  <link rel="stylesheet" href="styles.css">
+
+<body>
+   <header>
+    <h1>Days*Left</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showSection('home')">Home</a></li>
+      <li><a href="#" onclick="showSection('count')">Detail</a></li>
+      <li><a href="#" onclick="showSection('date')">Keep Notes</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <div>
+        <label for="from-date">From:</label>
+        <input type="date" id="from-date" min="1950-01-01" max="9999-12-31">
+      </div>
+      <div>
+        <label for="to-date">To:</label>
+        <input type="date" id="to-date" min="1950-01-01" max="9999-12-31">
+      </div>
+      <div>
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" min="1900-01-01" max="9999-12-31">
+      </div>
+   
+      <button onclick="calculate()">Calculate</button>
+    </section>
+
+    <section id="count" style="display:none;">
+      <h2>Result</h2>
+      <div>
+        <p id="your-age"></p>
+        <p id="total-time"></p>
+        <p id="time-died"></p>
+        <p id="time-leave"></p>
+      </div>
+    </section>
+
+    <section id="date" style="display:none;">
+      <h2>Notes</h2>
+      <title>Digital Note Taking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="noteApp">
+        <textarea id="noteInput" placeholder=" Write a note..." style="background-color: transparent;"></textarea>
+
+        <input type="file" id="imageInput" accept="image/*">
+        <button id="saveNoteButton" class="button button-primary">Save Note</button>
+        <div id="savedContent" style="height: 100px; overflow-y: auto;" ontouchmove="handleTouchMove(event)">
+ 
+</div>
+
+        <div id="savedContent"></div>
+        <hr>
+        <div id="trashContent"></div>
+    </div>
+   
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
+
+  
