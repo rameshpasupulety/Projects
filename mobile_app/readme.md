@@ -17,16 +17,19 @@
 
   ```bash
           #!/bin/bash
-        # change to super user
-          sudo su
-        # update the repositatory
-          apt-get update
-        # install the docker
-          apt install docker.io -y
-        # install the git
-          apt install git -y
-        # connect to the git repository
-          git clone https://github.com/rameshpasupulety/Projects.git
+
+          # Update package repositories
+           sudo apt-get update -y
+
+          # Install Docker
+           sudo apt-get install docker.io -y
+
+          # Install Git
+           sudo apt-get install git -y
+
+          # Clone the Git repository
+           git clone https://github.com/rameshpasupulety/Projects.git
+
         
   ```
 
@@ -35,3 +38,45 @@
         docker --version
         git --version
  ```
+
+```bash
+      # check the list
+        ls
+      # Enter into git
+        cd Projects/mobile_app
+```
+   -create a docker file by using nano/vim/vi/cat and put the following data in the file
+```bash
+
+ # # Use a lightweight web server image
+FROM nginx:alpine
+
+# Copy the HTML, CSS, and JavaScript files into the nginx public directory
+COPY index.html /usr/share/nginx/html
+COPY script.js  /usr/share/nginx/html
+COPY styles.css /usr/share/nginx/html
+
+
+# Expose port 80
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
+```
+
+
+-Build the image 
+```bash
+sudo docker build -t <name of the app> .
+```
+
+-check the images
+```bash
+sudo docker images ls
+```
+
+-run the images
+```bash
+sudo docker run -d<ditach mode> --name<any name to image> -p 7070:80<any port number to the container> s3< original name of image> 
+```
+
