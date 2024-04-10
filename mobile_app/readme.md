@@ -79,4 +79,13 @@ sudo docker images ls
 ```bash
 sudo docker run -d<ditach mode> --name<any name to image> -p 7070:80<any port number to the container> s3< original name of image> 
 ```
+   <br />
+<p align="center">
+    <img src="images/mobile_app/Screenshot.png" alt="image" width="200" height="150">
+  </a>
 
+   <br />
+<p align="center">
+    <img src="images/mobile_app/Screenshot1.png" alt="image" width="200" height="150">
+  </a>
+  
