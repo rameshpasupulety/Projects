@@ -81,11 +81,28 @@ sudo docker run -d<ditach mode> --name<any name to image> -p 7070:80<any port nu
 ```
    <br />
 <p align="center">
-    <img src="images/mobile_app/Screenshot.png" alt="image" width="200" height="150">
+   <img src="images/mobile_app/Screenshot.png" alt="image" width="200" height="150">
   </a>
 
    <br />
 <p align="center">
-    <img src="images/mobile_app/Screenshot1.png" alt="image" width="200" height="150">
+   <img src="images/mobile_app/Screenshot1.png" alt="image" width="200" height="150">
   </a>
-  
+
+
+  #### Create a accout in dockerhub
+    -login with the credentials in the EC2 instance
+    ```bash
+    sudo docker login
+    ```
+    -give the credentials of dockerhub such as username and password
+
+  #### tag the image 
+   ```bash
+   docker tag daysleft:latest ramesh4598/daysleft:latest
+   ```
+ -check the images list 
+ #### now push the image into dockerhub
+  ```bash
+  docker push daysleft
+  ```
