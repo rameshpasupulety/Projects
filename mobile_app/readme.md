@@ -82,12 +82,12 @@ sudo docker run -d<ditach mode> --name<any name to image> -p 7070:80<any port nu
 ```
    <br />
 <p align="center">
-   <img src="images/mobile_app/Screenshot.PNG" alt="image" width="400" height="250">
+   <img src='./images/mobile_app/Screenshot.png' alt="image" width="400" height="250">
   </a>
 
    <br />
 <p align="center">
-   <img src="images/mobile_app/Screenshot1.PNG" alt="image" width="400" height="250">
+   <img src="./images/mobile_app/Screenshot1.PNG" alt="image" width="400" height="250">
   </a>
 
 #
@@ -107,10 +107,9 @@ sudo docker run -d<ditach mode> --name<any name to image> -p 7070:80<any port nu
  #### now push the image into dockerhub
   ```bash
   docker push daysleft
-
   ```
 
-    <br />
+<br />
 <p align="center">
-    <img src="images/mobile_app/docker.PNG" alt="image" width="400" height="250">
+    <img src="./images/mobile_app/docker.PNG" alt="image" width="400" height="250">
   </a>
