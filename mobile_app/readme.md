@@ -1,4 +1,4 @@
-# Deployment of application in Docker.
+# Deployment of application in Dockerhub.
 
 #### Launch a new instances in aws and connect with the instance.
 
@@ -32,7 +32,7 @@
 
         
   ```
-
+#
   -check the versions of docker and git 
   ```bash
         docker --version
@@ -45,6 +45,7 @@
       # Enter into git
         cd Projects/mobile_app
 ```
+#
    -create a docker file by using nano/vim/vi/cat and put the following data in the file
 ```bash
 
@@ -81,33 +82,35 @@ sudo docker run -d<ditach mode> --name<any name to image> -p 7070:80<any port nu
 ```
    <br />
 <p align="center">
-   <img src="images/mobile_app/Screenshot.png" alt="image" width="200" height="150">
+   <img src="images/mobile_app/Screenshot.PNG" alt="image" width="400" height="250">
   </a>
 
    <br />
 <p align="center">
-   <img src="images/mobile_app/Screenshot1.png" alt="image" width="200" height="150">
+   <img src="images/mobile_app/Screenshot1.PNG" alt="image" width="400" height="250">
   </a>
 
-
+#
   #### Create a accout in dockerhub
     -login with the credentials in the EC2 instance
     ```bash
     sudo docker login
     ```
     -give the credentials of dockerhub such as username and password
-
+#
   #### tag the image 
    ```bash
    docker tag daysleft:latest ramesh4598/daysleft:latest
    ```
  -check the images list 
+ #
  #### now push the image into dockerhub
   ```bash
   docker push daysleft
+
   ```
 
- <br />
+    <br />
 <p align="center">
-   <img src="images/mobile_app/docker.png" alt="image" width="200" height="150">
+    <img src="images/mobile_app/docker.PNG" alt="image" width="400" height="250">
   </a>
